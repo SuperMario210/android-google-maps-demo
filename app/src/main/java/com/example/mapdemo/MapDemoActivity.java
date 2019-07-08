@@ -142,7 +142,7 @@ public class MapDemoActivity extends AppCompatActivity implements GoogleMap.OnMa
                                 getText().toString();
 
                         BitmapDescriptor customMarker =
-                                BitmapDescriptorFactory.fromResource(R.drawable.knife);
+                                BitmapDescriptorFactory.fromResource(R.drawable.pin);
                         // Creates and adds marker to the map
                         Marker marker = map.addMarker(new MarkerOptions()
                                 .position(point)
